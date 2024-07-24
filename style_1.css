@@ -199,3 +199,117 @@ h2{
 .box-content p:hover{
     text-decoration: underline;
 }
+
+/* Signin Box */
+
+.signin-cont{
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 0px 20px;
+    height: 124px;
+    border: 1px solid #ddd;
+}
+.signin-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 33px;
+    font-size: 0.85rem;
+}
+.signin-button{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    width: 100%;
+    
+}
+.signin-button input{
+    width: 228px;
+    font-size: 0.85rem;
+    color: #222f3d;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #febd68;
+    border-radius: 4px;
+    text-align: center;
+}
+.signin-end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+}
+.signin-end a{
+    color: #007185;
+    font-size: 0.75rem;
+}
+.signin-end a:hover{
+    color: #ff2a00;
+}
+
+
+/*  FOOTER */
+
+.foot-panel1{
+    margin-top: 15px;
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 40px;
+    font-weight: 700;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid #ddd;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+}
+.pages{
+    padding-top: 25px;
+    font-size: 0.75rem;
+    text-align: center;
+}
+.copyright{
+    padding-top: 7px;
+    font-size: 0.75rem;
+    text-align: center;
+}
